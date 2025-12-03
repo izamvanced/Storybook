@@ -3,7 +3,7 @@ import { IllustrationStyle, StoryPage } from "../types";
 import { decodeBase64, decodeAudioData } from "./audioUtils";
 
 // Initialize Gemini Client
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 const SYSTEM_INSTRUCTION = `
 Kamu adalah ilustrator profesional dan penulis buku anak.
