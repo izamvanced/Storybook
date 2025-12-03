@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Magical Storybook Generator",
+  "description": "A generative AI storybook creator that produces illustrated stories with narration based on user themes and styles using Gemini 2.5.",
+  "requestFramePermissions": []
+}
